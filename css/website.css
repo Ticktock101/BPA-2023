@@ -1,0 +1,27 @@
+/*css for entire website*/
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+:root {
+    --maroon: #C20808;
+    --gold: #f6b800;
+    --darkBrown: #3e211f;
+    --lightBrown: #b7968d;
+    --dullGreen: #746d57;
+    --dullLightGreen: #bbb0a0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header, main, footer {
+    font-family: 'Baloo 2', Helvetica, sans-serif;
+}
