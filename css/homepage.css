@@ -74,9 +74,9 @@ body {
 #title-box {
     position: absolute;
     z-index: 9;
-    width: 60%;
+    width: 40%;
     max-height: 100%;
-    min-height: 50%;
+    min-height: 30%;
     text-align: center;
     background-color: rgba(240, 248, 255, 0.75);
     /* overflow-y: auto; */
