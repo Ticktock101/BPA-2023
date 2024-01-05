@@ -7,7 +7,7 @@
     padding: 0 !important;
 }
 
-#hero {
+/* #hero {
     display: flex;
     background-color: var(--maroon);
     height: auto;
@@ -20,7 +20,7 @@
     justify-content: center;
     color: aliceblue;
     margin: 0;
-}
+} */
 
 #main-content {
     position: relative;
@@ -31,7 +31,7 @@
     height: 100%;
 }
 
-#carouselExampleIndicators {
+/* #carouselExampleIndicators {
     padding: 0;
 }
 
@@ -44,7 +44,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
+} */
 
 .mb-6 {
     margin-top: 12vh;
@@ -71,7 +71,7 @@ body {
     padding: 0;
 }
 
-#title-box {
+/* #title-box {
     position: absolute;
     z-index: 9;
     width: 40%;
@@ -79,15 +79,11 @@ body {
     min-height: 30%;
     text-align: center;
     background-color: rgba(240, 248, 255, 0.75);
-    /* overflow-y: auto; */
     box-sizing: content-box;
     padding-bottom: 0 !important;
     padding-top: 0 !important;
-}
+} */
 
-.title-text b{
-    opacity: 100% !important;
-}
 
 p {
     font-size: large;
@@ -96,6 +92,7 @@ p {
 .img-normal {
     width: 100%;
     object-fit: contain;
+    /* object-fit: cover; */
     max-height: 100% !important;
 }
 
@@ -105,16 +102,6 @@ p {
 }
 
 
-#fleur-de-lis {
-    background-color: white;
-    position: relative;
-    top: 0;
-}
-
-.third {
-    height: auto;
-}
-
 .help-text {
     height: auto;
 }
@@ -123,20 +110,12 @@ p {
     height: auto;
 }
 
-.values {
-    align-self: flex-start;
-}
-
 .text-sm {
     color: var(--maroon);
 }
 
 .h1 {
     color: var(--maroon) !important;
-}
-
-.journey {
-    align-self: flex-start;
 }
 
 .navbar-nav .nav-link {
@@ -168,6 +147,29 @@ p {
     padding-left: 0;
 }
 
+#intro-pic {
+    padding: 0 !important;
+}
+
+#intro-img-cover {
+    padding: 0 !important; 
+    height: auto;
+}
+
+.homepage-items {
+    background-color: aliceblue;
+    padding: 0 !important;
+}
+
+.orderh-img {
+    padding: 0;
+}
+
+.hp-button {
+    background-color: #C20808 !important;
+    color: aliceblue !important;
+}
+
 @media (max-width: 380px) {
     .hero-text {
       font-size: small;
@@ -185,5 +187,6 @@ p {
       width: 75%;
     }
   }
+
 
  
