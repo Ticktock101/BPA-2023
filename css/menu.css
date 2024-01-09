@@ -1,0 +1,8 @@
+.menu-grid {
+    row-gap: 5rem;
+    column-gap: 10rem;
+}
+
+.row {
+    gap: 5rem;
+}

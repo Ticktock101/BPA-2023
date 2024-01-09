@@ -25,3 +25,9 @@ html, body{
 header, main, footer {
     font-family: 'Baloo 2', Helvetica, sans-serif;
 }
+
+.div-to-center {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
