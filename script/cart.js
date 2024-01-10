@@ -1,5 +1,5 @@
- // Function to update the cart display
- function updateCartDisplay() {
+  // Function to update the cart display
+  function updateCartDisplay() {
     const cartList = document.getElementById('cart-list');
 
     while (cartList.firstChild)
