@@ -1,5 +1,5 @@
-  // Function to update the cart display
-  function updateCartDisplay() {
+ // Function to update the cart display
+ function updateCartDisplay() {
     const cartList = document.getElementById('cart-list');
 
     while (cartList.firstChild)
@@ -13,12 +13,20 @@
     cart.forEach((item, index) => {
       const listItemDiv = document.createElement('div');
 
-      listItemDiv.classList.add('col-12', 'd-flex', 'align-items-center', 'justify-content-center');
+      listItemDiv.classList.add('col-12', 'd-flex', 'align-items-center', 'justify-content-center', 'p-6');
 
       const listItem = document.createElement("p");
       listItem.textContent = `${item.product} - $${item.price}`;
 
+      const listItemButton = document.createElement("button");
+      listItemButton.innerHTML = "remove";
+
+      listItemButton.classList.add("remove-button")
+
+      listItemButton.onclick = () => removeFromCart(index);
+
       listItemDiv.appendChild(listItem);
+      listItemDiv.appendChild(listItemButton);
       cartList.appendChild(listItemDiv);
     });
   }
