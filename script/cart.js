@@ -7,6 +7,8 @@
         cartList.removeChild(cartList.firstChild);
     }
 
+    let totalAmountNum = 0;
+
     // Get cart items from localStorage
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
 
@@ -28,7 +30,29 @@
       listItemDiv.appendChild(listItem);
       listItemDiv.appendChild(listItemButton);
       cartList.appendChild(listItemDiv);
+
+      totalAmountNum += Number(item.price);
+      
     });
+
+    const totalAmountDiv = document.getElementById("total-amount");
+
+    const totalAmount = document.createElement('p');
+
+    // totalAmount.style.marginLeft = 'auto';
+
+    while (totalAmountDiv.firstChild)
+    {
+        totalAmountDiv.removeChild(totalAmountDiv.firstChild);
+    }
+
+    // Display the total amount
+    totalAmount.textContent = `Total Amount: $${totalAmountNum.toFixed(2)}`;
+
+    totalAmountDiv.appendChild(totalAmount);
+
+
+    
   }
 
   // Function to remove an item from the cart
