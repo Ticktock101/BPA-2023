@@ -24,7 +24,17 @@
     margin: 1rem 1rem 5rem 1rem;
 }
 
+.menu-item-title {
+    color: white;
+    font-size: 40px;
+}
+
+.menu-item-text {
+    
+}
+
 .menu-images {
     width: 100;
     height: 50;
 }
+
