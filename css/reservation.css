@@ -1,5 +1,6 @@
 #form-box {
-    margin: 1rem 5rem 1rem 5rem;
+    /* margin: 1rem 5rem 1rem 5rem; */
+    padding: 0 !important;
 }
 
 #SubmitButton {
@@ -10,10 +11,78 @@
     width: 50vw;
 }
 
-.date-item {}
+.form-control {
+    width: 100%; /* Make input fields 100% width of their container */
+}
 
-.time-item {}
+#form-input label,
+#form-input input,
+#form-input button {
+    font-size: 3vh; /* Adjust the value as needed */
+}
+
 
 .num-people-item {
     width: 50vw;
+}
+
+/* #form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+} */
+
+#form-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.form-item {
+    margin: 2vh;
+}
+
+.date-item {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.time-item {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.num-people-item {
+    margin: 0 !important;
+}
+
+.footer {
+    color: #C20808 !important;
+    background-color: aliceblue !important;
+    padding: 20px 0;
+    
+  }
+  
+.footer a {
+    color: #C20808;
+}
+  
+.contact-icons a {
+    color: #C20808;
+    margin-right: 10px;
+    font-size: 24px;
+}
+  
+.contact-info li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    padding-left: 0;
 }
