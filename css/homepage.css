@@ -7,20 +7,6 @@
     padding: 0 !important;
 }
 
-/* #hero {
-    display: flex;
-    background-color: var(--maroon);
-    height: auto;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    width: auto;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    align-items: center;
-    justify-content: center;
-    color: aliceblue;
-    margin: 0;
-} */
 
 #main-content {
     position: relative;
@@ -30,21 +16,6 @@
     top: 13vh;
     height: 100%;
 }
-
-/* #carouselExampleIndicators {
-    padding: 0;
-}
-
-
-.carousel-inner .carousel-item {
-    height: auto;
-}
-
-.carousel-inner .carousel-item img {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-} */
 
 .mb-6 {
     margin-top: 12vh;
@@ -69,24 +40,6 @@
 body {
     margin: 0;
     padding: 0;
-}
-
-/* #title-box {
-    position: absolute;
-    z-index: 9;
-    width: 40%;
-    max-height: 100%;
-    min-height: 30%;
-    text-align: center;
-    background-color: rgba(240, 248, 255, 0.75);
-    box-sizing: content-box;
-    padding-bottom: 0 !important;
-    padding-top: 0 !important;
-} */
-
-
-p {
-    /* font-size: large; */
 }
 
 .img-normal {
