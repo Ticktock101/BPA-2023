@@ -86,7 +86,7 @@ body {
 
 
 p {
-    font-size: large;
+    /* font-size: large; */
 }
 
 .img-normal {
@@ -189,4 +189,10 @@ p {
   }
 
 
- 
+ul {
+    list-style-type: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
