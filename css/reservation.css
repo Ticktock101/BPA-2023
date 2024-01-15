@@ -1,0 +1,19 @@
+#form-box {
+    margin: 1rem 5rem 1rem 5rem;
+}
+
+#SubmitButton {
+    margin-top: 1vh;
+}
+
+.email-item {
+    width: 50vw;
+}
+
+.date-item {}
+
+.time-item {}
+
+.num-people-item {
+    width: 50vw;
+}
