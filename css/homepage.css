@@ -7,6 +7,10 @@
     padding: 0 !important;
 }
 
+.title-text {
+    color: var(--maroon);
+}
+
 .menu-item {
     /* height: auto !important; */
     min-height: 50vh !important;
@@ -163,4 +167,8 @@ a:visited {
 
 #new-container {
     margin-left: 0 !important;
+}
+
+.menu-item-title {
+    color: var(--maroon);
 }

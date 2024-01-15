@@ -136,3 +136,7 @@ p {
       width: 75%;
     }
   }
+
+  .title-text {
+    color: var(--maroon);
+  }
