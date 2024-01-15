@@ -26,15 +26,13 @@
 }
 
 .menu-item-title {
-    color: white;
+    color: var(--maroon);
     font-size: 30px;
 }
 
 .menu-item-text {
     padding: 1rem;  
 }
-
-
 
 .footer {
     color: #C20808 !important;
@@ -80,4 +78,8 @@
 
 .navbar-nav .nav-link {
     color: var(--maroon) !important;
+}
+
+.menu-button {
+    background-color: var(--maroon);
 }
