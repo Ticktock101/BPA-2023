@@ -38,3 +38,28 @@
     height: 50;
 }
 
+
+.footer {
+    color: #C20808 !important;
+    background-color: aliceblue !important;
+    padding: 20px 0;
+  }
+  
+.footer a {
+    color: #C20808;
+}
+  
+.contact-icons a {
+    color: #C20808;
+    margin-right: 10px;
+    font-size: 24px;
+}
+  
+.contact-info li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    padding-left: 0;
+}
