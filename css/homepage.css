@@ -160,3 +160,7 @@ ul {
 a:visited {
     text-decoration: none;
 }
+
+#new-container {
+    margin-left: 0 !important;
+}
