@@ -1,6 +1,5 @@
 .row {
-    /* gap: 5rem; */
-    margin: 0 !important;
+    gap: 5rem;
 }
 
 .grid {
@@ -17,23 +16,12 @@
 .menu-item {
     align-items: center;
 
-    /* border-radius: 25px 25px; */
+    border-radius: 25px 25px;
 
     justify-content: center;
     background-color: grey;
 
-    padding: 0 !important;
-
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-
-    /* margin: auto; */
-
-    /* margin: 1rem 1rem 5rem 1rem; */
-}
-
-#main-content {
-    padding: 0 !important;
+    margin: 1rem 1rem 5rem 1rem;
 }
 
 .menu-item-title {
@@ -46,32 +34,7 @@
 }
 
 .menu-images {
-    /* width: 100;
-    height: 50; */
+    width: 100;
+    height: 50;
 }
 
-
-.footer {
-    color: #C20808 !important;
-    background-color: aliceblue !important;
-    padding: 20px 0;
-  }
-  
-.footer a {
-    color: #C20808;
-}
-  
-.contact-icons a {
-    color: #C20808;
-    margin-right: 10px;
-    font-size: 24px;
-}
-  
-.contact-info li {
-    list-style-type: none;
-    margin-bottom: 10px;
-}
-
-.contact-info {
-    padding-left: 0;
-}

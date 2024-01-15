@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="css" href="./css/reset.css">
     <link rel="stylesheet" href="./css/website.css">
+    <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/homepage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        a:visited {
+            text-decoration: none;
+        }
+    </style>
     <title>Game Day Grill</title>
 </head>
 <body>
@@ -34,36 +40,55 @@
                 <div class="col-md-5 col-12 d-flex flex-column justify-content-center align-items-center column p-4 intro">
                     <p class="p-4 title-text display-4">Let's get started</p>
                     <div class="p-4">
-                        <button class="rounded-3 m-2 h2 p-3 hp-button border-0">Order Now</button>
-                        <button class="rounded-3 m-2 h3 p-3">Make a Reservation</button>                        
+                        <ul>
+                            <li>
+                                <a href="menu.html">
+                                    <button class="rounded-3 m-2 h2 p-3 hp-button border-0">Order Now</button>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="reservation.html">
+                                    <button class="rounded-3 m-2 h3 p-3">Make a Reservation</button>
+                                </a>
+                            </li>
+                        </ul>         
                     </div>
                 </div>
                 <div class="col-md-7 col-12 second-img d-flex align-items-center justify-content-center column" id="intro-img-cover">
                     <img src="./images/image1r.jpg" alt="" class="img-fluid img-responsive rounded img-normal" id="intro-pic">
                 </div>
-  
             </div>
 
-
-            <div  class="row third d-flex justify-content-between m-4">
-                <div class="col-md-3 col-12 d-flex flex-column align-items-center justify-content-center column homepage-items rounded-3 mx-auto">
-                    <img src="./images/image2.jpg" alt="" class="img-fluid img-responsive rounded img-normal orderh-img">
-                    <p class="p-4 text-sm">Savor the perfection of our tasty kabobs - succulent marinated meat, crisp veggies, and a symphony of spices grilled to perfection. A culinary journey for your senses in every bite!</p>
-                    <button class="rounded-3 h4 p-3 m-3 hp-button border-0" onclick="addToCart('kabobs', '9.99')">Order now</button>
+            <div class="row third d-flex justify-content-between m-4">
+                <div class="row d-flex justify-content-evenly">
+                    <div class="menu-item homepage-items col-md-3 rounded-3">
+                        <img src="images\Royalty_Free\Ribeye.jpg" alt="" class="w-100 h-50 rounded">
+                        <div class="div-to-center menu-item-title">
+                            <p>Ribeye</p>
+                        </div>
+                        <p class="menu-item-text">Indulge in the sublime richness of our perfectly grilled ribeye,
+                             a marbled masterpiece that melts in your mouth, delivering a carnivorous symphony of flavor with every savory bite.</p>
+                        <button class="rounded-3 h4 p-3 m-3 hp-button border-0" onclick="addToCart('Ribeye', '9.99')">Order now</button>
+                    </div>
+                    <div class="menu-item homepage-items col-md-3 rounded-3">
+                        <img src="images\Royalty_Free\Grilled_Chicken_Breast.jpg" alt="" class="w-100 h-50 rounded">
+                        <div class="div-to-center menu-item-title">
+                            <p>Grilled Chicken Breast</p>
+                        </div>
+                        <p class="menu-item-text">Immerse yourself in the juiciness of our grilled chicken breast,
+                             expertly seasoned and perfectly grilled to achieve a golden, crispy exterior that gives way to succulent, flavorful perfection.</p>
+                        <button class="rounded-3 h4 p-3 m-3 hp-button border-0" onclick="addToCart('Grilled Chicken Breast', '9.99')">Order now</button>
+                    </div>
+                    <div class="menu-item homepage-items col-md-3 rounded-3">
+                        <img src="images\Royalty_Free\Burger.jpg" alt="" class="w-100 h-50 rounded">
+                        <div class="div-to-center menu-item-title">
+                            <p>Classic Burger</p>
+                        </div>
+                        <p class="menu-item-text">Rediscover the timeless joy of a perfectly grilled beef burger, a mouthwatering masterpiece of premium beef,
+                             meticulously seasoned and charred to perfection, promising an explosion of flavor in every satisfying bite.</p>
+                        <button class="rounded-3 h4 p-3 m-3 hp-button border-0" onclick="addToCart('Classic Burger', '9.99')">Order now</button>
+                    </div>
                 </div>
-
-                <div class="col-md-3 col-12 d-flex flex-column align-items-center justify-content-center column homepage-items rounded-3 mx-auto">
-                    <img src="./images/image2.jpg" alt="" class="img-fluid img-responsive rounded img-normal orderh-img">
-                    <p class="p-4 text-sm">Savor the perfection of our tasty kabobs - succulent marinated meat, crisp veggies, and a symphony of spices grilled to perfection. A culinary journey for your senses in every bite!</p>
-                    <button class="rounded-3 h4 p-3 m-3 hp-button border-0" onclick="addToCart('idek', '7.99')">Order now</button>
-                </div>
-
-                <div class="col-md-3 col-12 d-flex flex-column align-items-center justify-content-center column homepage-items rounded-3 mx-auto">
-                    <img src="./images/image2.jpg" alt="" class="img-fluid img-responsive rounded img-normal orderh-img">
-                    <p class="p-4 text-sm">Savor the perfection of our tasty kabobs - succulent marinated meat, crisp veggies, and a symphony of spices grilled to perfection. A culinary journey for your senses in every bite!</p>
-                    <button class="rounded-3 h4 p-3 m-3 hp-button border-0" onclick="addToCart('idek', '7.99')">Order now</button>
-                </div>
-                
             </div>
 
             <div id="row2" class="row other-row d-flex flex-wrap">
@@ -86,20 +111,7 @@
                 <div class=" col-12 d-flex align-items-center justify-content-center column" id="intro-img-cover">
                     <button class="rounded-3 m-2 h2 p-3 hp-button border-0">Reserve now!</button>
                 </div>
-
             </div>
-            
-            <!-- <div id="helpful-links" class="row fourth h-sm-75 h-md-75">
-                <div class="col-md-4 col-12 third-img d-flex align-items-center justify-content-center other-row column p-4">
-                    <a href="calendar.html"><img src="./images/calendar-icon-png-4100-removebg-preview.png" alt="" class="img-fluid img-normal rounded"></a>
-                </div>
-                <div class="col-md-4 col-12 second-img d-flex align-items-center justify-content-center other-row column p-4">
-                    <a href="resources.html"><img src="./images/question-removebg-preview.png" alt="" class="img-fluid rounded img-normal"></a>
-                </div>
-                <div class="col-md-4 col-12 third-img d-flex align-items-center justify-content-center other-row column p-4">
-                    <a href="eagle-scouts.html"><img src="./images/EagleBadge-removebg-preview.png" alt="" class="img-fluid rounded img-normal"></a>
-                </div>
-            </div> -->
             <div class="row footer">
                 <div class="col-md-6">
                   <h4>About Us</h4>
