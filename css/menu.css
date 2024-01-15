@@ -1,5 +1,6 @@
 .row {
-    gap: 5rem;
+    /* gap: 5rem; */
+    margin: 0 !important;
 }
 
 .grid {
@@ -16,12 +17,23 @@
 .menu-item {
     align-items: center;
 
-    border-radius: 25px 25px;
+    /* border-radius: 25px 25px; */
 
     justify-content: center;
     background-color: grey;
 
-    margin: 1rem 1rem 5rem 1rem;
+    padding: 0 !important;
+
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+
+    /* margin: auto; */
+
+    /* margin: 1rem 1rem 5rem 1rem; */
+}
+
+#main-content {
+    padding: 0 !important;
 }
 
 .menu-item-title {
@@ -34,8 +46,8 @@
 }
 
 .menu-images {
-    width: 100;
-    height: 50;
+    /* width: 100;
+    height: 50; */
 }
 
 
